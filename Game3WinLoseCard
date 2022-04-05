@@ -1,0 +1,8 @@
+.con1 {
+  background-color: #14332e;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-align: center;
+}
+

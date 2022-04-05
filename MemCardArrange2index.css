@@ -1,0 +1,23 @@
+.a1 {
+  width: 100%;
+  list-style-type: none;
+
+  background-color: aqua;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.b {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+@media screen and (max-width: 575px) {
+  .a1 {
+    height: 75px;
+    width: 25%;
+    left: 63px;
+    top: 236px;
+    border-radius: 0px;
+  }
+}
+

@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+.mh {
+  font-size: 35px;
+  padding: 20px;
+}
+
+.elapsed-time {
+}
+@media screen and (max-width: 768px) {
+  .sera {
+    height: 50vh;
+    width: 70vw;
+    background-color: #14332e;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+  }
+  .b2 {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+  }
+
+  .b21 {
+    height: 50px;
+    width: 50px;
+  }
+  .b3 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+  }
+  .b31 {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+.sera {
+  height: 100vh;
+  width: 100vw;
+  background-color: #14332e;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  height: 1020px;
+}
+.fg1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+
+  font-size: 18px;
+}
+
+.l2 {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  width: 100vw;
+  font-size: 30px;
+}
+.b2 {
+  height: 110px;
+  width: 110px;
+  background-image: linear-gradient(to right, green, black);
+  border-radius: 20px;
+  border: white solid 5px;
+  margin: 10px;
+}
+.b21 {
+  height: 70px;
+  width: 70px;
+  background-image: url('https://m.media-amazon.com/images/I/61OXKrkiy-L._SL1399_.jpg');
+  border-radius: 20px;
+  border: white solid 5px;
+  background-size: cover;
+  margin: 10px;
+}
+
+.b3 {
+  height: 110px;
+  width: 110px;
+  background-image: radial-gradient(red, yellow);
+  border-radius: 20px;
+  border: white solid 5px;
+  margin: 10px;
+}
+
+.b31 {
+  height: 70px;
+  width: 70px;
+  background-image: url('https://m.media-amazon.com/images/I/61l9vKGxd5L._SL1269_.jpg');
+  background-size: cover;
+  border-radius: 20px;
+  border: white solid 5px;
+  margin: 10px;
+  animation-delay: revert;
+}
+
+.l3 {
+  height: 150px;
+  width: 150px;
+
+  border-radius: 20px;
+  border: black solid 5px;
+}
+
+.content {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.b2i {
+  height: 90px;
+  width: 90px;
+}
+

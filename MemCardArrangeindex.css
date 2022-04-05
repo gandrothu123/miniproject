@@ -1,0 +1,24 @@
+.bnc {
+  width: 28%;
+  list-style-type: none;
+  height: 140px;
+  background-color: aqua;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.b {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+
+@media screen and (max-width: 575px) {
+  .b {
+    height: 75px;
+    width: 75px;
+    left: 63px;
+    top: 236px;
+    border-radius: 0px;
+  }
+}
+

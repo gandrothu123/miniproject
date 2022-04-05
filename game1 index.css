@@ -1,0 +1,47 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+
+  background-image: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
+
+  min-height: 100vh;
+}
+
+.emoji-game-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.emojis-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
+
+.btn2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.btns22 {
+  display: flex;
+
+  justify-content: space-between;
+}
+.header {
+  text-align: center;
+  font-size: 35px;
+}
+.content {
+  margin: 50px;
+}
+

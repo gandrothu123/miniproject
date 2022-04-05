@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.elite1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #223a5f;
+  color: white;
+  text-align: center;
+}
+.ls {
+  text-align: left;
+}
+.i12 {
+  height: 237px;
+  width: 266px;
+  left: 587px;
+  top: 256px;
+  border-radius: 0px;
+}
+.bc {
+  text-align: left;
+}
+.i2 {
+  height: 70vh;
+  width: 60vw;
+}
+.sidebyside {
+  display: flex;
+
+  font-size: 15px;
+}
+.s1 {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.hdng {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+
+@media screen and (max-width: 576px) {
+  .elite1 {
+    height: 1530px;
+    width: 360px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+
+  .i12 {
+    height: 240px;
+    width: 200px;
+  }
+
+  .hdng {
+    font-family: 'Roboto';
+    font-size: 16px;
+  }
+  .sidebyside {
+    display: flex;
+    flex-direction: column;
+    font: 14px;
+  }
+}
+

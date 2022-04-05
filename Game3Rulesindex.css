@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.lite1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: #14332e;
+  color: white;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.bk {
+  text-align: left;
+}
+.gr {
+  height: 455.95965576171875px;
+  width: 807.0023193359375px;
+  left: 0.00390625px;
+  top: 0px;
+  border-radius: 0px;
+}
+.i2 {
+  height: 70vh;
+  width: 60vw;
+}
+.side2 {
+  display: flex;
+  background-color: #14332e;
+}
+.rules {
+  font-size: 32px;
+}
+.sidesl {
+  display: flex;
+  background-color: #14332e;
+  text-align: left;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .gr {
+    height: 178px;
+    width: 312px;
+    left: 24px;
+    top: 80px;
+    border-radius: 0px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+  .sidesl {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+  }
+}
+
